@@ -1,3 +1,5 @@
+## Web Frameworks Demo
+
 ### Gin
 
 Web framework which comes with a default set of middleware, also supports custom middleware. 
@@ -91,6 +93,32 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 A router library which integrates with golang's native http package. 
 
 
+### Echo 
+
+A webframework very similar to gin, it has it's own context and comes with a collection of middleware along with supporting custom ones. 
+https://echo.labstack.com/guide/
+
+```
+golang-experiments/web-frameworks/echo-demo  main ✗                                                                                    39m ⚑ ◒  
+▶ go run main.go
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.8.0
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2022-08-22T22:57:32.637865-07:00","id":"","remote_ip":"127.0.0.1","host":"localhost:8080","method":"GET","uri":"/albums","user_agent":"Thunder Client (https://www.thunderclient.com)","status":200,"error":"","latency":158776,"latency_human":"158.776µs","bytes_in":95,"bytes_out":232}
+{"time":"2022-08-22T22:57:46.508593-07:00","id":"","remote_ip":"127.0.0.1","host":"localhost:8080","method":"GET","uri":"/albums/2","user_agent":"Thunder Client (https://www.thunderclient.com)","status":200,"error":"","latency":67317,"latency_human":"67.317µs","bytes_in":95,"bytes_out":66}
+{"time":"2022-08-22T22:58:08.078913-07:00","id":"","remote_ip":"127.0.0.1","host":"localhost:8080","method":"POST","uri":"/albums","user_agent":"Thunder Client (https://www.thunderclient.com)","status":201,"error":"","latency":146143,"latency_human":"146.143µs","bytes_in":82,"bytes_out":66}
+{"time":"2022-08-22T22:58:21.930263-07:00","id":"","remote_ip":"127.0.0.1","host":"localhost:8080","method":"GET","uri":"/albums","user_agent":"Thunder Client (https://www.thunderclient.com)","status":200,"error":"","latency":42115,"latency_human":"42.115µs","bytes_in":82,"bytes_out":298}
+
+```
+
+
 ## Useful tools
 
 ### API testing
@@ -103,3 +131,5 @@ A router library which integrates with golang's native http package.
 - Gin tutorial: https://go.dev/doc/tutorial/web-service-gin
 - Insomnia REST Client: https://www.codemag.com/Article/2107051/Test-Your-REST-APIs-Using-Insomnia-REST-Client
 - Thunder Client: https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+- Framework Comparisons:
+  - https://pkg.go.dev/github.com/mingrammer/go-web-framework-stars#readme-top-go-web-frameworks
