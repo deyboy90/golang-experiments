@@ -133,3 +133,4 @@ ____________________________________O/_______
 - Thunder Client: https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
 - Framework Comparisons:
   - https://pkg.go.dev/github.com/mingrammer/go-web-framework-stars#readme-top-go-web-frameworks
+  - https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/
