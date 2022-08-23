@@ -31,6 +31,8 @@ func main() {
 }
 
 // getAlbums responds with the list of all albums as JSON.
+// gin.Context is the most important part of Gin. It carries request details, validates and serializes JSON, and more.
+// Despite the similar name, this is different from Go’s built-in context package.
 func getAlbums(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, albums)
 }

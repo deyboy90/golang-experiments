@@ -1,5 +1,7 @@
-## Simple API setup using Gin
+### Gin
 
+Web framework which comes with a default set of middleware, also supports custom middleware. 
+It has it's own context which is different from golang's ctx. 
 
 ```
 ▶ go run main.go
@@ -82,6 +84,12 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
     }
 ]
 ```
+
+
+### Gorilla Mux
+
+A router library which integrates with golang's native http package. 
+
 
 ## Useful tools
 
